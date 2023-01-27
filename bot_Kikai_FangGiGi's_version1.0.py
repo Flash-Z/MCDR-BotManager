@@ -19,7 +19,7 @@ PLUGIN_METADATA = {
     'name': 'bot_manager',  # RText component is allowed
     'description': '储存假人位置朝向信息并提供昵称映射和简化指令',  # RText component is allowed
     'author': 'Jerry-FaGe, FangGiGi二改',
-    'link': 'https://github.com/Jerry-FaGe/MCDR-BotKikai',
+    'link': 'https://github.com/Flash-Z/MCDR-BotManager',
     'dependencies': {
         'mcdreforged': '>=1.0.0',
         'minecraft_data_api': '*',
@@ -53,7 +53,7 @@ bot_list = []
 help_head = """
 ================== §bBotKikai §r==================
 §6欢迎使用由@Jerry-FaGe开发、FangGiGi二改的假人器械映射插件！
-§6你可以在Github搜索MCDR-BotKikai找到本项目！
+§6你可以在Github搜索MCDR-BotManager找到本项目！
 本插件中§d{prefix_short}§r与§d{prefix}§r效果相同，两者可以互相替换
 """.format(prefix=prefix, prefix_short=prefix_short)
 help_body = {
